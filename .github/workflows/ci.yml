@@ -40,4 +40,4 @@ jobs:
       - name: Test Hello World endpoint
         run: |
           sleep 10 # Give the app time to start
-          curl -f http://localhost:8080/hello | grep "Hello World"
+          curl -f http://localhost:8080 | grep "Hello World"
